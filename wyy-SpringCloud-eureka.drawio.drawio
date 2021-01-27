@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-01-27T22:11:59.263Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" version="14.2.7" etag="OfcSF2S7BCyidekwCfzJ" type="github"><diagram id="E-zeXJ4_sD5peonB0QX5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-27T22:25:20.635Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3861.400 QQBrowser/10.7.4313.400" etag="IMgouuRnhml7sjA0-Vpd" version="14.2.7" type="github">
+  <diagram id="E-zeXJ4_sD5peonB0QX5" name="Page-1">
+    <mxGraphModel dx="827" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kqntZB6sAMNFrYoyA4aj-3" value="服务端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="20" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kqntZB6sAMNFrYoyA4aj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.476;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kqntZB6sAMNFrYoyA4aj-4" target="kqntZB6sAMNFrYoyA4aj-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kqntZB6sAMNFrYoyA4aj-4" value="spring-cloud-netfix-eureka-client&lt;br&gt;spring.factories" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="50" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kqntZB6sAMNFrYoyA4aj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.461;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kqntZB6sAMNFrYoyA4aj-5" target="kqntZB6sAMNFrYoyA4aj-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kqntZB6sAMNFrYoyA4aj-5" value="EurekaClientAutoConfiguration" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="190" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kqntZB6sAMNFrYoyA4aj-7" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;eurekaApplicationInfoManager()&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-size: 12pt&quot;&gt;(&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;new &lt;/span&gt;InstanceInfoFactory()).create(config);&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="360" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kqntZB6sAMNFrYoyA4aj-10" value="创建实例" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="310" width="60" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
